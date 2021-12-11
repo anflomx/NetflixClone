@@ -15,6 +15,10 @@
 		E17E4BA02764F92700B1CF40 /* Netflix_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4B9F2764F92700B1CF40 /* Netflix_CloneTests.swift */; };
 		E17E4BAA2764F92700B1CF40 /* Netflix_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4BA92764F92700B1CF40 /* Netflix_CloneUITests.swift */; };
 		E17E4BAC2764F92700B1CF40 /* Netflix_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4BAB2764F92700B1CF40 /* Netflix_CloneUITestsLaunchTests.swift */; };
+		E17E4BBA2764FD9F00B1CF40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4BB92764FD9F00B1CF40 /* HomeViewController.swift */; };
+		E17E4BBC2764FDB800B1CF40 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4BBB2764FDB800B1CF40 /* UpcomingViewController.swift */; };
+		E17E4BBE2764FDC900B1CF40 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4BBD2764FDC900B1CF40 /* SearchViewController.swift */; };
+		E17E4BC02764FDDD00B1CF40 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E4BBF2764FDDD00B1CF40 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E17E4BA52764F92700B1CF40 /* Netflix CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netflix CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E4BA92764F92700B1CF40 /* Netflix_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix_CloneUITests.swift; sourceTree = "<group>"; };
 		E17E4BAB2764F92700B1CF40 /* Netflix_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E17E4BB92764FD9F00B1CF40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E17E4BBB2764FDB800B1CF40 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		E17E4BBD2764FDC900B1CF40 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E17E4BBF2764FDDD00B1CF40 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		E17E4B872764F92300B1CF40 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				E17E4BB82764FD7A00B1CF40 /* Controllers */,
 				E17E4B882764F92300B1CF40 /* AppDelegate.swift */,
 				E17E4B8A2764F92300B1CF40 /* SceneDelegate.swift */,
 				E17E4B8C2764F92300B1CF40 /* MainTabBarViewController.swift */,
@@ -122,6 +131,17 @@
 				E17E4BAB2764F92700B1CF40 /* Netflix_CloneUITestsLaunchTests.swift */,
 			);
 			path = "Netflix CloneUITests";
+			sourceTree = "<group>";
+		};
+		E17E4BB82764FD7A00B1CF40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E17E4BB92764FD9F00B1CF40 /* HomeViewController.swift */,
+				E17E4BBB2764FDB800B1CF40 /* UpcomingViewController.swift */,
+				E17E4BBD2764FDC900B1CF40 /* SearchViewController.swift */,
+				E17E4BBF2764FDDD00B1CF40 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17E4BBE2764FDC900B1CF40 /* SearchViewController.swift in Sources */,
 				E17E4B8D2764F92300B1CF40 /* MainTabBarViewController.swift in Sources */,
+				E17E4BC02764FDDD00B1CF40 /* DownloadsViewController.swift in Sources */,
 				E17E4B892764F92300B1CF40 /* AppDelegate.swift in Sources */,
 				E17E4B8B2764F92300B1CF40 /* SceneDelegate.swift in Sources */,
+				E17E4BBC2764FDB800B1CF40 /* UpcomingViewController.swift in Sources */,
+				E17E4BBA2764FD9F00B1CF40 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
